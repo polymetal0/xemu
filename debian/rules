@@ -57,7 +57,7 @@ endif
 
 
 %:
-	dh $@
+	dh --parallel $@
 
 override_dh_auto_configure:
 
